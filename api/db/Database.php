@@ -1,7 +1,8 @@
 <?php
-require_once __DIR__ . '/../vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
-$dotenv->load();
+// use composer
+// require_once __DIR__ . '/../vendor/autoload.php';
+// $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
+// $dotenv->load();
 
 class Database
 {
@@ -13,11 +14,11 @@ class Database
     function __construct()
     {
 
-        $DB_NAME = $_ENV['DB_NAME'];
-        $DB_HOST = $_ENV['DB_HOST'];
-        $DB_PORT = $_ENV['DB_PORT'];
-        $this->user = $_ENV['DB_USERNAME'];
-        $this->password = $_ENV['DB_PASSWORD'];
+        $DB_NAME = 'sportradar';
+        $DB_HOST = 'sportradar-mysql';
+        $DB_PORT = '3306';
+        $this->user = 'sportradar';
+        $this->password = 'sportradar';
 
         $this->connection_string = 'mysql:dbname=' . $DB_NAME . ';host=' . $DB_HOST . ';port=' . $DB_PORT . ';charset=utf8';
     }
