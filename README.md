@@ -14,7 +14,10 @@ Runs on PHP, uses mysql.
 
 Implemented Route for events: `/events.php`. (GET, POST, DELETE)
 
+> I've named the foreign keys with a postfix `_fk` instead of prefixing with `_` by accident.
+> ..Habit. I dont want to bother replacing all instances for the example code.
+
+![erm](ERM.png)
+
 ### client
 Micro Vuejs app. As simple as it gets. Just statically serve the contents of `./client`.
-
-> I've named the foreign keys with a postfix `_fk` instead of prefixing with `_`. Habit, and dont want to bother replacing all instances for the example code.
