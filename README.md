@@ -3,23 +3,14 @@ Basic showcase, how a very crude crud (see what i did there 😁) app could look
 I'm not a php dev, so please don't use this as an example if possible.
 
 ## Usage
+Run `docker-compose up -d`. Frontend is available on `localhost:3000`, Api on `localhost:8080`.
 
 ### api
-Runs on PHP, uses MariaDb (default mysql pdo)
+Runs on PHP, uses mysql.
 
-1. Create an .env file with the config details inside ./api/
-
-```
-// example .env
-DB_NAME=sportradar
-DB_USERNAME=sportradar
-DB_PASSWORD=sportradar
-DB_HOST=localhost
-DB_PORT=3306
-```
-
-2. Create and seed the db via the `./db.sql` file.
-3. Install composer dependencies
+Implemented Route for events: `/events.php`. (GET, POST, DELETE)
 
 ### client
 Micro Vuejs app. As simple as it gets. Just statically serve the contents of `./client`.
+
+> I've named the foreign keys with a postfix `_fk` instead of prefixing with `_`. Habit, and dont want to bother replacing all instances for the example code.

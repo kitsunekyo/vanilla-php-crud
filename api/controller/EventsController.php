@@ -25,6 +25,7 @@ class EventsController
         $statement = $item->create();
         $id = $this->connection->lastInsertId();
 
+        // should get values for foreignkeys
         if ($statement) {
             echo json_encode(
                 ["message" => "created event", "id" => $id]
