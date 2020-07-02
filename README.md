@@ -1,6 +1,10 @@
 # vanilla php crud example
-Basic showcase, how a very crude crud (see what i did there 😁) app could look like. 
-I'm not a php dev, so please don't use this as an example if possible.
+Basic showcase, what a very crude crud app could in php look like. 
+I'm not a php dev, so please don't take this too seriously. + Last time i've touched vue was q1 2019.
+
+> Note: express + NoSQL is a lot faster for setting up things like that
+
+![screenshot](screenshot.png)
 
 ## Usage
 Run `docker-compose up -d`. Frontend is available on `localhost:3000`, Api on `localhost:8080`.
