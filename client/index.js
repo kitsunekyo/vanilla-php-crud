@@ -1,8 +1,6 @@
 const API_DEFAULTS = {
-    baseUrl: "//localhost/sportradar/api",
-    headers: () => ({
-        "Content-Type": "application/json",
-    }),
+    baseUrl: "//localhost:8080",
+    headers: () => ({}),
 };
 
 const api = async (method, url, payload) => {
