@@ -1,8 +1,8 @@
 # vanilla php crud example
-Basic showcase, what a very crude crud app could in php look like. 
-I'm not a php dev, so please don't take this too seriously. + Last time i've touched vue was q1 2019.
+Basic showcase, how i'd approach a very crude crud app, without any framework.
+I'm not a php dev, so please don't take this too seriously. 
 
-> Note: express + NoSQL is a lot faster for setting up things like that
+> Note: using a framework is obviously almost always a much better idea. use an ORM and proper abstraction, and dont make your life unnecessarily hard, like i did here.
 
 ![screenshot](screenshot.png)
 
@@ -20,4 +20,5 @@ Implemented Route for events: `/events.php`. (GET, POST, DELETE)
 ![erm](ERM.png)
 
 ### client
-Micro Vuejs app. As simple as it gets. Just statically serve the contents of `./client`.
+Micro Vuejs app. As simple as it gets. 
+Would also make way more sense with a build pipeline, and modularized.
