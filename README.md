@@ -1,4 +1,4 @@
-# vanilla php crud example
+# vanilla php crud api example
 Basic showcase, how i'd approach a very crude crud app, without any framework.
 I'm not a php dev, so please don't take this too seriously. 
 
