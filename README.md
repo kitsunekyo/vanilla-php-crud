@@ -2,7 +2,7 @@
 Basic showcase, what a very crude crud app could in php look like. 
 I'm not a php dev, so please don't take this too seriously. + Last time i've touched vue was q1 2019.
 
-> Note: express + NoSQL is a lot faster for setting up things like that
+> Note: after working with js for so long, php really feels clunky and inefficient
 
 ![screenshot](screenshot.png)
 
