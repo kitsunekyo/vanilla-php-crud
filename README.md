@@ -2,6 +2,8 @@
 Basic showcase, how i'd approach a very crude crud app, without any framework.
 I'm not a php dev, so please don't take this too seriously. 
 
+This is the result of a coding test: [assignment.pdf](assignment.PDF)
+
 > Note: using a framework is obviously almost always a much better idea. use an ORM and proper abstraction, and dont make your life unnecessarily hard, like i did here.
 
 ![screenshot](screenshot.png)
